@@ -62,11 +62,6 @@ body{
 
 }
 .navbar ul li:hover{
-
-    height: 1px;
-
-    background: #F2E8CF;
-    
     border-bottom: 1px solid #F2E8CF;
 
     transition: 0.5s;
