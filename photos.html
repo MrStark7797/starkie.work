@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Photos - starkie.work</title>
+
+        <!--Sets Character Set-->
+        <meta charset="utf-8">
+
+        <!--Declaring of device desplay setings-->
+        <meta name="veiewport" content="width=device-width, inital-scale=1">
+
+        <link
+            href="./img/LMfavicon-32x32.png"
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            media="(prefers-color-scheme: light)"
+        />
+        <link
+            href="./img/DMfavicon-32x32.png"
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            media="(prefers-color-scheme: dark)"
+        />
+
+        <link rel="stylesheet" href="./style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Mono&family=Jost:wght@300&display=swap" rel="stylesheet">
+
+        <script src="webjs.js" type="module"></script>
+    </head>
+
+    <!--prevents right click menu opening when the button is pressed to mark a tile-->
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                
+
+                <!--a href="index.html"><h1><img src="./img/LogoVector.svg" alt="Slice Chess Logo" style="float:left;width:6rem;height:6rem;">Slice Chess</h1></a-->
+                
+            
+                <ul>
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+
+                    <li><a href="https://github.com/MrStark7797/">Github</a></li>
+                </ul>
+            </div>
+        </div>
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+				<div class="numbertext">1 / 5</div>
+				<img src="./img/swanflight.jpg" style="width:100%">
+				<div class="text">f/6.3, 210mm, ISO 400</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">2 / 5</div>
+				<img src="./img/plane.jpg" style="width:100%">
+				<div class="text">f/6.3, 210mm, ISO 100</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">3 / 5</div>
+				<img src="./img/bmwwheel.jpg" style="width:100%">
+				<div class="text">f/6.3, 176mm, ISO 400</div>
+			  </div>
+			  <div class="mySlides fade">
+				<div class="numbertext">4 / 5</div>
+				<img src="./img/SwanWater.jpg" style="width:100%">
+				<div class="text">f/5.6, 91mm, ISO 100</div>
+			  </div>
+			  <div class="mySlides fade">
+				<div class="numbertext">5 / 5</div>
+				<img src="./img/bluebells.jpg" style="width:100%">
+				<div class="text">f/6.3, 210mm, ISO 400</div>
+			  </div>
+
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			  <span class="dot" onclick="currentSlide(4)"></span>
+			  <span class="dot" onclick="currentSlide(5)"></span>
+			</div>        
+		</div>
+    
+    </body>
+</html>
+
